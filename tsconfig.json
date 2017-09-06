@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,//编译时是否生成对应的source map文件，这个文件主要用于前端调试。当前端js文件被压缩引用后，出错时可借助同名的source map文件查找源文件中错误位置。
+        "target": "ES5",//编译目标平台（es3,es5,e6,es2015）
+        "removeComments":true //编译生成的JavaScript文件是否移除注释。
+    }
+}
